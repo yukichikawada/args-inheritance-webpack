@@ -1,1 +1,19 @@
 /* PHASE 8: Thumbs */
+.friends-list li {
+  margin: 0 0 10px 0;
+  width: 60px;
+}
+
+.friends-list > li:nth-child(3n-1) {
+  margin: 0 10px 10px 10px;
+}
+
+.friends-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumb {
+  width: 58px;
+  height: 58px;
+}
